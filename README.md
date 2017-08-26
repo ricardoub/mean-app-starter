@@ -1,5 +1,5 @@
 # Meat - Angular App Starter
-
+ 
 ## 1. Passos para começar
 
 ### Clonando o Repositório
