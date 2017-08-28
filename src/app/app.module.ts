@@ -11,7 +11,7 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { RestaurantsComponent } from './restaurants/restaurants.component';
 import { RestaurantComponent } from './restaurants/restaurant/restaurant.component'
-import { RestaurantsService } from './restaurants/restaurants.service'
+import { RestaurantsService } from './restaurants/restaurants.service';
 
 @NgModule({
   declarations: [
@@ -20,7 +20,7 @@ import { RestaurantsService } from './restaurants/restaurants.service'
     HomeComponent,
     AboutComponent,
     RestaurantsComponent,
-    RestaurantComponent
+    RestaurantComponent,
   ],
   imports: [
     BrowserModule,
