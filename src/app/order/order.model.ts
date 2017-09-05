@@ -9,10 +9,7 @@ class Order {
 }
 
 class OrderItem {
-  constructor(
-    public quantity: number, 
-    public menuId:string
-  ){}
+  constructor(public quantity: number, public menuId: string){}
 }
 
-export { Order, OrderItem }
+export {Order, OrderItem}

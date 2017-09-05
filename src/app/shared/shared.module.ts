@@ -19,6 +19,7 @@ import { RatingComponent } from './rating/rating.component'
     ReactiveFormsModule
   ],
   exports: [
+    CommonModule,
     InputComponent, 
     RadioComponent, 
     RatingComponent,
