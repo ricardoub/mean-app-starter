@@ -18,6 +18,7 @@ import { MenuItemComponent } from './restaurants/restaurant-detail/menu-item/men
 import { ShoppingCartComponent } from './restaurants/restaurant-detail/shopping-cart/shopping-cart.component';
 import { ReviewsComponent } from './restaurants/restaurant-detail/reviews/reviews.component';
 import { OrderSummaryComponent } from './order-summary/order-summary.component';
+import { LocationStrategy, HashLocationStrategy } from '@angular/common'
 
 import { SharedModule } from './shared/shared.module'
 import { NotFoundComponent } from './not-found/not-found.component'
@@ -45,7 +46,8 @@ import { NotFoundComponent } from './not-found/not-found.component'
     RouterModule.forRoot(ROUTES, {preloadingStrategy: PreloadAllModules})
   ],
   providers: [ 
-    {provide: LOCALE_ID, useValue: 'pt-BR'} 
+    {provide: LOCALE_ID, useValue: 'pt-BR'}//,
+    //{provide: LocationStrategy, useClass: HashLocationStrategy}
   ],
   bootstrap: [AppComponent]
 })
